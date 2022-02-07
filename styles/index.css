@@ -1,7 +1,18 @@
 body{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    justify-content: flex-start;
+    align-items: flex-start;
     max-width: 1130px;
-   
+}
+.top-meny {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction:row ;
 }
 
 ul {
@@ -16,19 +27,7 @@ ul {
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
-
-.container{
-   
-}
-
-.first-context {
-    display: flex;
-    justify-content: flex-start;
-    align-items:center;
-    flex-direction: row;
-}
-
-.btn-signin {
+  .btn-in {
     width: 102px;
     height: 46px;
     border-color: #BCD0E5;
@@ -39,26 +38,39 @@ ul {
     font-size: 16px;
     line-height: 32px;
     text-align: center;
+
 }
     /*box-shadow: 0px 4px 4px;*/
 
    
     /*font-color: #173A56;*/
-
+    .btn-up {
+        width: 110px;
+        height: 46px;
+        background: #FF9900;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif; /*do not look the same*/
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+    }
+    
+.first-context {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: row;
+    margin-top: 152px;
 }
 
-.btn-signup {
-    width: 110px;
-    height: 46px;
-    background: #FF9900;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif; /*do not look the same*/
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 32px;
-    text-align: center;
-    color: #FFFFFF;
-    border: none;
+.introduction{
+    margin-top: 70px;
+    width: 539px;
+    justify-self: center;
+    align-self: center;
 }
 
 .second-context {
@@ -67,8 +79,34 @@ ul {
     align-items:center;
     flex-direction: row;
     max-width: 1130px;
+    margin-top: 210px;
     
 }
+
+
+.btn-now {
+
+}
+.third-context {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 101px; 
+}
+
+.fourth-content [
+
+]
+
+.fifth-content {
+
+}
+
+.man-lecturing{ 
+    width: 520px;
+    height: 574px;
+}
+
 
 h1 {
     width: 518px;
