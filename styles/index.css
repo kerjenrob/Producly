@@ -7,6 +7,7 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
     max-width: 1130px;
+}
 /* start top meny list*/
 ul {
     list-style-type: none;
@@ -61,6 +62,19 @@ header {
     flex-direction: row;
     margin-top: 152px;
 }
+h1 {
+    width: 518px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: start;
+    letter-spacing: 0.02em;
+    color: #2F281E;
+    position:absolute
+        top 250px;
+    }
 h4 {
     font-family: 'Poppins', sans-serif; /*look for a simular font*/
     font-weight: bold;
@@ -121,6 +135,10 @@ h4 {
     width: 240px;
     height: 204px;
 }
+.icon {
+    width: 51px;
+    height: 50px;
+}
 h4 {
     font-family: 'Poppins', sans-serif; /*look for a simular font*/
     font-weight: bold;
@@ -149,15 +167,30 @@ p {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    margin-top: 101px; 
+    margin-top: 147px; 
 }
-
-
-.fourth-content [
+h2 {
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight: bold;
+    font-size: 36px;
+}
+h5 {
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.man-lecturing{
+    width: 520px;
+    height: 574px;
+    margin-left: 104px;
+}
+/* Start fourth context*/
+.fourth-context [
 
 ]
 
-.fifth-content {
+.fifth-context {
 
 }
 
@@ -167,23 +200,9 @@ p {
 }
 
 
-h1 {
-    width: 518px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 54px;
-    text-align: start;
-    letter-spacing: 0.02em;
-    color: #2F281E;
-    }
 
-h2 {
-    font-family: 'Poppins', sans-serif; /*look for a simular font*/
-    font-weight: bold;
-    font-size: 36px;
-}
+
+
 
 h3 {
 
