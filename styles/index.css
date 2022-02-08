@@ -51,16 +51,16 @@ li {
     font-size: 16px;
     line-height: 32px;
     text-align: center;
-    /*box-shadow: 0px 4px 4px;*/
 }
 /*start header*/
 }
-header {
+.header {
     display: flex;
     justify-content: flex-start;
     align-items:center;
     flex-direction: row;
     margin-top: 152px;
+    position: relative;
 }
 h1 {
     width: 518px;
@@ -72,9 +72,9 @@ h1 {
     text-align: start;
     letter-spacing: 0.02em;
     color: #2F281E;
-    position:absolute               /* ? */
-        top 250px;
-    }
+    position:absolute               /* ? I can get it t work whit margin but want to use position */
+        top 152px;
+}
 h4 {
     font-family: 'Poppins', sans-serif; /*look for a simular font*/
     font-weight: bold;
@@ -224,21 +224,56 @@ h5 {
     flex-direction: row;
     margin-top: 143px;
 }
-
 .man-board{ 
     width: 542px;
     height: 569px;
 }
-
-
-
-
-
-
-h3 {
-
+/* start footer*/
+nav {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
 }
-
+.ul-footer {
+    display:;
+    justify-content: ;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
-.btn-Now2
+.li-footer {
+    display: flex; 
+    justify-content:flex-start;
+   
+.li-foot {
+    display: flex;
+    justify-content:flex-start;
+}
+.frame {          /* ? */
+    display: flex;
+    justify-content:flex-start;
+    width: 325px;
+    height: 48px;
+    border-color: #BCD0E5;
+    border-width: 5px;
+}
+.btn-foot {
+    margin-top: 21px;
+    width: 131px;
+    height: 39px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}   
+h6 {
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight: normal;
+    font-size: 16px;
+    line-height: ;
+}
