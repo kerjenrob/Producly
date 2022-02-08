@@ -3,31 +3,25 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .container {
     justify-content: flex-start;
     align-items: flex-start;
     max-width: 1130px;
-}
-
+/* start top meny list*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
 }
-
 li {
     display: inline;
     float: right;
     flex-direction: row-reverse; /*???*/
     margin: 10px;
 }
-
 .logo {
     float:left;
 }
-
 .btn-in {
     margin: 5px;
     width: 102px;
@@ -43,7 +37,6 @@ li {
     line-height: 32px;
     text-align: center;
 }
-    
 .btn-up {
     margin: 5px;
     width: 110px;
@@ -59,11 +52,8 @@ li {
     text-align: center;
     /*box-shadow: 0px 4px 4px;*/
 }
-
-
-
-  
-    
+/*start header*/
+}
 header {
     display: flex;
     justify-content: flex-start;
@@ -71,34 +61,97 @@ header {
     flex-direction: row;
     margin-top: 152px;
 }
-
-.introduction{
+h4 {
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight: bold;
+    font-size: 22px;
+}
+.btn-get{
+    margin-top: 45px;  
+    width: 175px; 
+    height: 53px;
+    background-color: #FF9900 ;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.btn-watch {
+    margin-top: 45px;  
+    margin-left: 30px;
+    width: 175px; 
+    height: 53px;
+    background-color: #FFFFFF;
+    color: #FF9900;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+}
+.triangle {
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+}
+/*start introduktion*/
+.intoduction{
     margin-top: 70px;
     width: 539px;
-    justify-self: center;
-    align-self: center;
+    height: 108px;
+    justify-self: center; /* ? */
+    text-align: center;
 }
-
+/*start second context*/
 .second-context {
     display: flex;
     justify-content: flex-start;
     align-items:center;
     flex-direction: row;
-    max-width: 1130px;
     margin-top: 210px;
-    
 }
-
-
+.icon-box {
+    width: 240px;
+    height: 204px;
+}
+h4 {
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight: bold;
+    font-size: 22px;
+}
+p {
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight:medium;
+    font-size: 16px;
+}
 .btn-now {
-
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 34px;
+    justify-self: center; /* ? */
+    text-align;: center
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight:bold;
+    font-size: 16px;
 }
+/*Start third context*/
 .third-context {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     margin-top: 101px; 
 }
+
 
 .fourth-content [
 
@@ -127,24 +180,15 @@ h1 {
     }
 
 h2 {
-
+    font-family: 'Poppins', sans-serif; /*look for a simular font*/
+    font-weight: bold;
+    font-size: 36px;
 }
 
 h3 {
 
 }
 
-p  {
-    width: 518px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: start;
-    letter-spacing: 0.02em;
-    color: #544837;
-}
 }
 
 .btn-Now2
