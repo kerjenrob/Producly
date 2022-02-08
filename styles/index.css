@@ -72,7 +72,7 @@ h1 {
     text-align: start;
     letter-spacing: 0.02em;
     color: #2F281E;
-    position:absolute
+    position:absolute               /* ? */
         top 250px;
     }
 h4 {
@@ -186,17 +186,48 @@ h5 {
     margin-left: 104px;
 }
 /* Start fourth context*/
-.fourth-context [
-
-]
-
+.fourth-context {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 101px;
+}
+.man-computer {
+    width: 535px;
+    height: 521px;
+    margin-top: 101px;
+}
+.product-managers {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.text {
+    margin-left: 30px;
+    align-items: flex-start; /* ? */
+}
+.check-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.checkmark {
+    width: 35px;
+    height: 35px;
+}
+.line {
+    color: #979797;
+}
+/* start fifth context */
 .fifth-context {
-
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 143px;
 }
 
-.man-lecturing{ 
-    width: 520px;
-    height: 574px;
+.man-board{ 
+    width: 542px;
+    height: 569px;
 }
 
 
