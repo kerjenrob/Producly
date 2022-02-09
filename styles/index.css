@@ -4,8 +4,10 @@ body{
     align-items: center;
 }
 .container {
+    display: flex; /*do I need this*/
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: column; /* do I need this*/
     max-width: 1130px;
 }
 /* start top meny list*/
@@ -19,9 +21,9 @@ ul {
     padding: 0;
 }
 li {
-    display: inline;
+    display: flex;
     float: right;
-    flex-direction: row-reverse; /*???*/
+    flex-direction: row; /*???*/
     margin: 10px;
 }
 .logo {
@@ -86,6 +88,9 @@ h4 {
     font-weight: bold;
     font-size: 22px;
 }
+button:hover{
+    transform: scale(1.5,1.5);
+}
 .btn-get{
     margin-top: 45px;  
     width: 175px; 
@@ -136,6 +141,7 @@ h4 {
     margin-top: 70px;
     width: 539px;
     height: 108px;
+    display: block;
     justify-self: center; /* ? */
     text-align: center;
     align-self: flex-start;
